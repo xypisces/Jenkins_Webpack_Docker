@@ -81,15 +81,17 @@ module.exports = {
     new ExtractTextWebpackPlugin('css/style.css')
   ],
   optimization: {
+    usedExports:true, // js tree shaking
     splitChunks: {
-      cacheGroups: {
-        vendor: {
-          test: /node_modules/,
-          chunks: 'initial',
-          name: 'vender',
-          priority: 10,
-        }
-      }
+      chunks: 'all',
+      // cacheGroups: {
+      //   vendor: {
+      //     test: /node_modules/,
+      //     chunks: 'initial',
+      //     name: 'vender',
+      //     priority: 10,
+      //   }
+      // }
     }
   },
   devServer: {

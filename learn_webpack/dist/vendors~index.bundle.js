@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vender"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~index"],{
 
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
