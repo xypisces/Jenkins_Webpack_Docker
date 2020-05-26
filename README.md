@@ -3,3 +3,5 @@
 - Webpack
 - Jenkins
 - Docker
+
+- git revert test
