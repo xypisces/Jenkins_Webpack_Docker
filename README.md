@@ -5,3 +5,4 @@
 - Docker
 
 - git revert test
+- git reset test
